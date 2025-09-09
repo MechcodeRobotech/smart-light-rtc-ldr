@@ -45,7 +45,7 @@ void loop() {
 ```
 
 ### 2. Read RTC DS3231 Time
-
+```cpp
 #include <Wire.h>
 #include "RTClib.h"
 
@@ -74,6 +74,7 @@ void loop () {
   Serial.println(now.second(), DEC);
   delay(1000);
 }
+```
 
 ### 🚀 How to Use
 
