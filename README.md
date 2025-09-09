@@ -79,9 +79,9 @@ void loop () {
 ### 🚀 How to Use
 
 Clone this repository:
-
+```
 git clone https://github.com/your-username/arduino-ldr-rtc-ds3231.git
-
+```
 Open the .ino file in Arduino IDE.
 
 Select the correct board and COM port.
