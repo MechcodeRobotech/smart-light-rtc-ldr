@@ -23,7 +23,7 @@ int LDRvalue = 500;
 
  bool turn_off_light;
  int start_time = 23; 
- int end_time = 3
+ int end_time = 3;
  
 
  void RTC_setup()
@@ -94,9 +94,9 @@ int readLDR(int pin) {
 
 void openLight(int value, int LDRpin, int LEDPin) {
   if(readLDR(LDRpin) > value){
-  	digitalWrite(ledPin, LOW);
-  } else if(readLDR(LDRpin) < value) {
   	digitalWrite(ledPin, HIGH);
+  } else if(readLDR(LDRpin) < value) {
+  	digitalWrite(ledPin, LOW);
   }
 }
 
@@ -112,5 +112,5 @@ void openLight(int value, int LDRpin, int LEDPin) {
 
  void loop()
  {
-    RTC_display();
+    RTC_Conditioncheck();
  }
