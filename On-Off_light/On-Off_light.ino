@@ -13,7 +13,7 @@ int LDRvalue = 500;
 //ตั้งเวลาตอนที่ Upload code
  int hours = 0; //ชั่วโมง
  int minutes = 0; //นาที
- int seconds =0; //วินาที
+ int seconds = 0; //วินาที
 
 
  String time_period = "";
